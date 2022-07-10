@@ -1,5 +1,6 @@
-dependencies = ['torch']
+dependencies = ['torch', "timm"]
 
+import torch
 import swin
 
 MODEL_URLS = {

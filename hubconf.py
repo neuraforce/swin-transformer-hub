@@ -1,3 +1,7 @@
+dependencies = ['torch']
+
+import swin
+
 MODEL_URLS = {
     "swin_base_patch4_window12_384": "https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_base_patch4_window12_384.pth",
     "swin_base_patch4_window12_384_22k": "https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_base_patch4_window12_384_22k.pth",
